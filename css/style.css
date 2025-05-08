@@ -4,3 +4,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* general */
+a {
+    text-decoration:none;
+    color:white;
+    font-size:0.9rem;
+    font-weight:bold;
+}
+.txt-right {
+    text-align:right;
+}
+img {
+    max-width:100%;
+}
+
+/* header */
+header {
+    background-color:#FF6900;
+}
+.hdr-container {
+    display:flex;
+    max-width:1300px;
+    margin:0 auto;
+}
+.column1-4 {
+    width:calc(100% / 4)
+}
+.column2-4 {
+    width:calc((100% / 4) * 2);
+    text-align:center;
+}
+.hdr-container .column1-4 > a {
+    display:inline-block;
+    list-style:none;
+    padding:13px 5px;
+}
+.logo {
+    height:40px;
+    padding: 10px 0;
+}
+
+/* main */
+
+/* footer */
