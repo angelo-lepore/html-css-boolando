@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px dashed red;
 }
 
 /* general */
@@ -74,25 +73,70 @@ header {
 }
 .heart {
     position: absolute;
-    top: 0;
-    right: 1rem;
+    top: 20px;
+    right: 0;
     background-color: #ffffff;
+    padding: 4px;
 }
-.card-sale {
+.heart:hover {
+    color: #ff0000;
+}
+.badges {
     position: absolute;
-    top: 0;
-    right: 1rem;
+    bottom: 6rem;
+    left: 0;
+    color: #ffffff;
+}    
+.card-sale {
     background-color: #ff0000;
 }
 .card-eco {
-    position: absolute;
-    top: 0;
-    right: 1rem;
-    background-color: #00ff00;
+    background-color: #008101;
 }
 .img2 {
     display: none;
     position: absolute;
     top: 0;
 }
+
 /* footer */
+footer {
+    background-color: #1A1A1A;
+    margin-top: 20px;
+    padding-top: 20px;
+    min-height: 100px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+.footer-container {
+    width: 1000px;
+    margin: auto;
+}
+.ftr-left h4 {
+    font-size: 1.2rem;
+    padding: 0 5px;
+}
+.footer-container > * {
+    color: white;
+    display: inline-block;
+}
+.ftr-left, .ftr-right{
+    width: calc((100% / 2) - 10px)
+}
+.ftr-left ul > li > a {
+    font-weight: 300;
+}
+.ftr-right h5 {
+    padding-right: 5px;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-left {
+    justify-content: end;
+}
